@@ -1,17 +1,24 @@
 :root {
-    --primary-color: #000000;
-    --secondary-color: #191970;
-    --tertiary-color: #6495ED;
-    --quaternary-color: #FAEBD7;
+    --primary-color: #743429;
+    --secondary-color: #BD866C;
+    --tertiary-color: #585255;
+    --quaternary-color: #a23d2b;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    color: var(--secondary-color)
+    color: black;
 }
 
 /*--header--*/
 header {
-    padding: 20px 35px;
+    color: var(--primary-color);
+    padding: 50px 20px 50px 30px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -23,6 +30,15 @@ header {
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
+    
+}
+
+header h1 {
+    background-color: rgb(88, 82, 85, 0.8)
+}
+
+header nav {
+    background-color: rgb(88, 82, 85, 0.3)
 }
 
 header nav ul li a {
@@ -43,18 +59,33 @@ header nav ul {
 
 /*--header end--*/
 
+/*--hero--*/
 .hero {
     background-image: url("../images/_DSC5146.jpg");
     background-size: cover;
     display: flex;
-    justify-content: left;
+    justify-content: space-around;
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
     background-position: 80%;
   }
 
-.hero h2 {
-    
-    box-shadow: 0 0 10px rgba(100, 149, 237, 0.5);
+.hero div h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    padding-bottom: 10px;;
 }
+
+.about-me {
+    margin: 0;
+    border: 10px;
+    padding: 15px;
+    background-color: rgb(88, 82, 85, 0.8);
+}
+
+.profile {
+    width: 100px;
+}
+
+/*--hero end--*?
