@@ -118,7 +118,7 @@ header nav ul {
   }
 
   .run-buddy {
-    width: 120px;
+    width: 240px;
     margin: 10px;
   }
   
@@ -190,4 +190,40 @@ header nav ul {
     align-items: flex-start;
     justify-content: space-around;
     background-color: rgb(88, 82, 85, 0.5)
+  }
+
+  /*--work end--*/
+
+  /*--personal info--*/
+  
+  .contact {
+    background-image: url("../images/_DSC5146.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding:40px;
+  }
+
+  address {
+      margin-left: 20px;
+  }
+  
+  .contact address {
+    background-color: rgb(88, 82, 85, 0.5)
+  }
+  
+  .resume {
+    background-image: url("../images/_DSC5146.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    padding:40px;
   }
