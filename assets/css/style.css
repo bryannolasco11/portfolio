@@ -1,101 +1,107 @@
 :root {
-    --primary-color: #743429;
-    --secondary-color: #000000;
-    --tertiary-color: #585255;
-    --quaternary-color: #f42c09;
+  --primary-color: #743429;
+  --secondary-color: #000000;
+  --tertiary-color: #585255;
+  --quaternary-color: #f42c09;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    color: var(--secondary-color);
-    text-shadow: 1px 1px var(--primary-color);
-    font-family: Helvetica, Arial, sans-serif;
+  color: var(--secondary-color);
+  text-shadow: 1px 1px var(--primary-color);
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 /*--header--*/
 header {
-    color: var(--secondary-color);
-    padding: 50px 20px 50px 30px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    background-image: url("../images/_DSC5146.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
-    
+  color: var(--secondary-color);
+  padding: 50px 20px 50px 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  background-image: url("../images/_DSC5146.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  z-index: 9999;
+ 
+  
 }
 
 
 header a {
-    color: var(--primary-color);
-    text-shadow: 3px 3px var(--secondary-color);
-    text-decoration: none;
-    border-style:none;
-    padding: 20px;
-    background-color: rgb(88, 82, 85, 0.5);
+  color: var(--primary-color);
+  text-shadow: 3px 3px var(--secondary-color);
+  text-decoration: none;
+  border-style:none;
+  padding: 20px;
+  background-color: rgb(88, 82, 85, 0.5);
 }
 
 
 
 header nav ul li a {
-    padding: 10px 15px;
-    font-weight: lighter;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
-  
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header nav ul li a:hover {
+  background: var(--secondary-color);
+}
+
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
 
 
 /*--header end--*/
 
 /*--hero--*/
 .hero {
-    background-image: url("../images/_DSC5146.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
-    padding:40px;
-  }
+  background-image: url("../images/_DSC5146.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+  padding:40px;
+
+}
 
 .hero div h2 {
-    color: var(--primary-color);
-    text-shadow: 1px 1px var(--secondary-color);
-    
-    font-weight: bolder;
-    text-decoration: underline;
-    padding-bottom: 10px;
+  color: var(--primary-color);
+  text-shadow: 1px 1px var(--secondary-color);
+  
+  font-weight: bolder;
+  text-decoration: underline;
+  padding-bottom: 10px;
 }
 
 .about-me {
-    margin: 0;
-    border: 10px;
-    padding: 15px;
-    background-color: rgb(88, 82, 85, 0.8);
+  margin: 0;
+  border: 10px;
+  padding: 15px;
+  background-color: rgb(88, 82, 85, 0.8);
 }
 
 .profile {
-    width: 100px;
+  width: 100px;
 }
 
 /*--hero end--*/
@@ -103,144 +109,185 @@ header nav ul {
 /*--work--*/
 
 .work {
-    background-image: url("../images/_DSC5146.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
-    padding:40px;
-    
-  }
+  background-image: url("../images/_DSC5146.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+  padding:40px;
+ 
+}
 
-  .work h2 {
-    color: var(--primary-color);
-    text-shadow: 1px 1px var(--secondary-color);
-    font-weight: bolder;
-    text-decoration: underline;
-    padding-bottom: 10px;
-    background-color: rgb(88, 82, 85, 0.5);
-  }
+.work h2 {
+  color: var(--primary-color);
+  text-shadow: 1px 1px var(--secondary-color);
+  font-weight: bolder;
+  text-decoration: underline;
+  padding: 0 0 10px 0;
+  background-color: rgb(88, 82, 85, 0.5);
+}
 
-  .run-buddy {
-    width: 240px;
-    margin: 10px;
-  }
-  
-  .runbuddytitle {
-    margin: 0;
-    border: 10px;
-    padding: 15px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    background-color: rgb(88, 82, 85, 0.5)
-  }
+.run-buddy {
+  width: 240px;
+  margin: 10px;
+  opacity: .5;
+}
 
-  .wisconsin-havoc {
-      width: 120px;
-      margin: 10px;
-  }
+.run-buddy:hover {
+  opacity: 1;
+}
 
-  .wisconsin-havoc-title {
-    margin: 0;
-    border: 10px;
-    padding: 15px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    background-color: rgb(88, 82, 85, 0.5)
-  }
+.runbuddytitle {
+  margin: 0;
+  border: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: rgb(88, 82, 85, 0.5)
+}
 
-  .project3 {
+.wisconsin-havoc {
     width: 120px;
     margin: 10px;
-  }
+    opacity: .5;
+}
+
+.wisconsin-havoc:hover {
+  opacity: 1;
+}
+.wisconsin-havoc-title {
+  margin: 0;
+  border: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: rgb(88, 82, 85, 0.5)
+}
+
+.project3 {
+  width: 120px;
+  margin: 10px;
+  opacity: .5;
+}
+
+.project3:hover {
+  opacity: 1;
+}
+
+.project3title {
+  margin: 0;
+  border: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: rgb(88, 82, 85, 0.5)
+}
+
+.project4 {
+  width: 120px;
+  margin: 10px;
+  opacity: .5;
+}
+
+.project4:hover {
+  opacity: 1;
+}
+
+.project4title {
+  margin: 0;
+  border: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: rgb(88, 82, 85, 0.5)
+}
+
+.project5 {
+  width: 120px;
+  margin: 10px;
+  opacity: .5;
+}
+
+.project5 {
+  opacity: 1;
+}
+
+.project5title {
+  margin: 0;
+  border: 10px;
+  padding: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: rgb(88, 82, 85, 0.5)
+}
+
+/*--work end--*/
+
+/*--personal info--*/
+
+.contact {
+  background-image: url("../images/_DSC5146.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+  background-position: 80%;
+  padding:40px;
   
-  .project3title {
-    margin: 0;
-    border: 10px;
-    padding: 15px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    background-color: rgb(88, 82, 85, 0.5)
+}
+
+address {
+    margin-left: 20px;
+}
+
+.contact h2 {
+  color: var(--primary-color);
+  text-shadow: 1px 1px var(--secondary-color);
+  font-weight: bold;
+  text-decoration: underline;
+  padding: 0 0 10px 0;
+  background-color: rgb(88, 82, 85, 0.5)
+}
+
+.contact address {
+  background-color: rgb(88, 82, 85, 0.5)
+}
+
+
+/*--personal info end--*/
+
+/*--footer--*/
+footer {
+  background-color: #743429;
+  padding: 20px;
+  text-shadow: 3px 3px var(--tertiary-color);
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
   }
 
-  .project4 {
-    width: 120px;
-    margin: 10px;
-  }
-  
-  .project4title {
-    margin: 0;
-    border: 10px;
-    padding: 15px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    background-color: rgb(88, 82, 85, 0.5)
+  header h1 {
+    width: 100%;
+    text-align: center;
   }
 
-  .project5 {
-    width: 120px;
-    margin: 10px;
-  }
-  
-  .project5title {
-    margin: 0;
-    border: 10px;
-    padding: 15px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    background-color: rgb(88, 82, 85, 0.5)
-  }
-
-  /*--work end--*/
-
-  /*--personal info--*/
-  
-  .contact {
-    background-image: url("../images/_DSC5146.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: left;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
-    padding:40px;
-    
-  }
-
-  address {
-      margin-left: 20px;
-  }
-
-  .contact h2 {
-    color: var(--primary-color);
-    text-shadow: 1px 1px var(--secondary-color);
-    font-weight: bold;
-    text-decoration: underline;
-    padding-bottom: 10px;
-    background-color: rgb(88, 82, 85, 0.5)
-  }
-  
-  .contact address {
-    background-color: rgb(88, 82, 85, 0.5)
-  }
-  
-  .resume {
-    background-image: url("../images/_DSC5146.jpg");
-    background-size: cover;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    background-position: 80%;
-    padding:40px;
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
   }
