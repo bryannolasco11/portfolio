@@ -271,8 +271,9 @@ address {
 /*--footer--*/
 footer {
   background-color: #743429;
-  padding: 20px;
+  padding: 10px;
   text-shadow: 3px 3px var(--tertiary-color);
+  font-size: 5px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -283,21 +284,19 @@ footer {
 
   header h1 {
     width: 100%;
-    text-align: center;
+    text-align: left;
     padding: 50px 20px 30px 30px;
-   
-    
-  }
+   }
 
-  header nav ul {
+   header nav ul {
     margin-top: 20px;
     width: 100%;
-    
-    text-align: right;
+    justify-content: center;
+  }
   }
 
   
-}
+
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
@@ -306,7 +305,7 @@ footer {
   }
 
   header nav ul li a {
-    flex: 1 100%;
+    font-size: 20px;
   }
 
 
@@ -317,4 +316,9 @@ footer {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
   
+}
+
+header nav ul li a {
+  font-size: 20px;
+  padding: 30px;
 }
