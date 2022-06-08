@@ -11,8 +11,10 @@ A Website to demonstrate the talent and abilities of Bryan Nolasco
 * CSS
 
 ## Website
-https://bryannolasco11.github.io/run-buddy/
+https://bryannolasco11.github.io/portfolio/
 
 
 ##Contribution
 Made with ❤️ by Bryan Nolasco
+https://github.com/bryannolasco11/
+
