@@ -273,7 +273,7 @@ footer {
   background-color: #743429;
   padding: 10px;
   text-shadow: 3px 3px var(--tertiary-color);
-  font-size: 5px;
+  font-size: 8px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
@@ -285,13 +285,14 @@ footer {
   header h1 {
     width: 100%;
     text-align: left;
-    padding: 50px 20px 30px 30px;
+    padding: 50px 20px 30px 0px;
    }
 
    header nav ul {
     margin-top: 20px;
     width: 100%;
-    justify-content: center;
+    justify-content: left;
+    text-align: justify;
   }
   }
 
@@ -315,10 +316,20 @@ footer {
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-  
+  header nav ul li a {
+    font-size: 20px;
+    padding: 30px;
+    color:var(--secondary-color);
+    width: 100%;
+  }
+
+  header nav ul li {
+    margin: 10px;
+  }
+
+  header a {
+    background-color: transparent;
+  }
 }
 
-header nav ul li a {
-  font-size: 20px;
-  padding: 30px;
-}
+
