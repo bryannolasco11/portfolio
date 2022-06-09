@@ -38,8 +38,8 @@ header {
 
 
 header a {
-  color: var(--primary-color);
-  text-shadow: 3px 3px var(--secondary-color);
+  color: var(--secondary-color);
+  text-shadow: 3px 3px var(--primary-color);
   text-decoration: none;
   border-style:none;
   padding: 20px;
@@ -85,8 +85,8 @@ header nav ul {
 }
 
 .hero div h2 {
-  color: var(--primary-color);
-  text-shadow: 1px 1px var(--secondary-color);
+  color: var(--secondary-color);
+  text-shadow: 1px 1px var(--primary-color);
   
   font-weight: bolder;
   text-decoration: underline;
@@ -122,8 +122,8 @@ header nav ul {
 }
 
 .work h2 {
-  color: var(--primary-color);
-  text-shadow: 1px 1px var(--secondary-color);
+  color: var(--secondary-color);
+  text-shadow: 1px 1px var(--primary-color);
   font-weight: bolder;
   text-decoration: underline;
   padding: 0 0 10px 0;
@@ -253,8 +253,8 @@ address {
 }
 
 .contact h2 {
-  color: var(--primary-color);
-  text-shadow: 1px 1px var(--secondary-color);
+  color: var(--secondary-color);
+  text-shadow: 1px 1px var(--primary-color);
   font-weight: bold;
   text-decoration: underline;
   padding: 0 0 10px 0;
