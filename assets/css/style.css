@@ -93,6 +93,14 @@ header nav ul {
   padding-bottom: 10px;
 }
 
+.hero div a {
+  color: var(--secondary-color);
+  text-shadow: 1px 1px var(--primary-color);
+}
+
+.hero div:hover {
+  background-color: var(--primary-color);
+}
 .about-me {
   margin: 0;
   border: 10px;
