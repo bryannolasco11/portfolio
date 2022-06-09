@@ -38,8 +38,8 @@ header {
 
 
 header a {
-  color: var(--quaternary-color);
-  text-shadow: 3px 3px var(--primary-color);
+  color: var(--primary-color);
+  text-shadow: 3px 3px var(--secondary-color);
   text-decoration: none;
   border-style:none;
   padding: 20px;
