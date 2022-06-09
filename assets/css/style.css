@@ -334,6 +334,10 @@ footer {
   header a {
     background-color: transparent;
   }
+
+  .work div {
+    flex-direction: column;
+  }
 }
 
 
