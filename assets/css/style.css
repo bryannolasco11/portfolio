@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #743429;
+  --primary-color: #5D9DC6;
   --secondary-color: #000000;
   --tertiary-color: #585255;
-  --quaternary-color: #f42c09;
+  --quaternary-color: #361E1A;
 }
 
 * {
@@ -38,12 +38,12 @@ header {
 
 
 header a {
-  color: var(--primary-color);
-  text-shadow: 3px 3px var(--secondary-color);
+  color: var(--quaternary-color);
+  text-shadow: 3px 3px var(--primary-color);
   text-decoration: none;
   border-style:none;
   padding: 20px;
-  background-color: rgb(88, 82, 85, 0.5);
+  background-color: rgb(126, 134, 116, 0.5);
 }
 
 
@@ -52,7 +52,7 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav ul li a:hover {
@@ -97,7 +97,7 @@ header nav ul {
   margin: 0;
   border: 10px;
   padding: 15px;
-  background-color: rgb(88, 82, 85, 0.8);
+  background-color: rgb(126, 134, 116, 0.5);
 }
 
 .profile {
@@ -127,7 +127,7 @@ header nav ul {
   font-weight: bolder;
   text-decoration: underline;
   padding: 0 0 10px 0;
-  background-color: rgb(88, 82, 85, 0.5);
+  background-color: rgb(126, 134, 116, 0.5);
 }
 
 .run-buddy {
@@ -148,7 +148,7 @@ header nav ul {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  background-color: rgb(88, 82, 85, 0.5);
+  background-color: rgb(126, 134, 116, 0.5);
   flex-grow: 2;
 }
 
@@ -168,7 +168,7 @@ header nav ul {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  background-color: rgb(88, 82, 85, 0.5)
+  background-color: rgb(126, 134, 116, 0.5);
 }
 
 .project3 {
@@ -188,7 +188,7 @@ header nav ul {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  background-color: rgb(88, 82, 85, 0.5)
+  background-color: rgb(126, 134, 116, 0.5);
 }
 
 .project4 {
@@ -208,7 +208,7 @@ header nav ul {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  background-color: rgb(88, 82, 85, 0.5)
+  background-color: rgb(126, 134, 116, 0.5);
 }
 
 .project5 {
@@ -228,7 +228,7 @@ header nav ul {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  background-color: rgb(88, 82, 85, 0.5)
+  background-color: rgb(126, 134, 116, 0.5);
 }
 
 /*--work end--*/
@@ -258,11 +258,11 @@ address {
   font-weight: bold;
   text-decoration: underline;
   padding: 0 0 10px 0;
-  background-color: rgb(88, 82, 85, 0.5)
+  background-color: rgb(126, 134, 116, 0.5);
 }
 
 .contact address {
-  background-color: rgb(88, 82, 85, 0.5)
+  background-color: rgb(126, 134, 116, 0.5);
 }
 
 
@@ -270,7 +270,7 @@ address {
 
 /*--footer--*/
 footer {
-  background-color: #743429;
+  background-color: #25382A;
   padding: 10px;
   text-shadow: 3px 3px var(--tertiary-color);
   font-size: 8px;
