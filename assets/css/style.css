@@ -27,7 +27,7 @@ header {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  background-image: url("../images/DSC51461.jpg");
+  background-image: url("../images/hoops.JPG");
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
@@ -72,7 +72,7 @@ header nav ul {
 
 /*--hero--*/
 .hero {
-  background-image: url("../images/DSC51461.jpg");
+  background-image: url("../images/hoops.JPG");
   background-size: cover;
   display: flex;
   justify-content: space-around;
@@ -109,7 +109,7 @@ header nav ul {
 /*--work--*/
 
 .work {
-  background-image: url("../images/DSC51461.jpg");
+  background-image: url("../images/hoops.JPG");
   background-size: cover;
   display: flex;
   justify-content: space-around;
@@ -236,7 +236,7 @@ header nav ul {
 /*--personal info--*/
 
 .contact {
-  background-image: url("../images/DSC51461.jpg");
+  background-image: url("../images/hoops.JPG");
   background-size: cover;
   display: flex;
   justify-content: left;
