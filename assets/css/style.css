@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #743429;
-  --secondary-color: #000000;
+  --primary-color: #352C32;
+  --secondary-color: #C38E06;
   --tertiary-color: #585255;
-  --quaternary-color: #361E1A;
+  --quaternary-color: #812600;
 }
 
 * {
@@ -12,8 +12,8 @@
 }
 
 body {
-  color: var(--secondary-color);
-  text-shadow: 1px 1px var(--primary-color);
+  color: black;
+  text-shadow: 1px 1px var(--quaternary-color);
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -27,7 +27,7 @@ header {
   position: sticky;
   position: -webkit-sticky;
   top: 0;
-  background-image: url("../images/hoops.JPG");
+  background-image: url("../images/DSC00614.JPG");
   background-size: cover;
   background-attachment: fixed;
   background-position: 80%;
@@ -43,7 +43,7 @@ header a {
   text-decoration: none;
   border-style:none;
   padding: 20px;
-  background-color: rgb(126, 134, 116, 0.5);
+  background-color: rgb(163, 164, 199, 0.3);
 }
 
 
@@ -52,11 +52,11 @@ header nav ul li a {
   padding: 10px 15px;
   font-weight: lighter;
   font-size: 1.55vw;
-  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 10px rgb(163, 164, 199, 0.5);
 }
 
 header nav ul li a:hover {
-  background: var(--secondary-color);
+  background: var(--primary-color);
 }
 
 header nav ul {
@@ -72,7 +72,7 @@ header nav ul {
 
 /*--hero--*/
 .hero {
-  background-image: url("../images/hoops.JPG");
+  background-image: url("../images/DSC00614.JPG");
   background-size: cover;
   display: flex;
   justify-content: space-around;
@@ -97,7 +97,7 @@ header nav ul {
   margin: 0;
   border: 10px;
   padding: 15px;
-  background-color: rgb(126, 134, 116, 0.5);
+  background-color: rgb(163, 164, 199, 0.5);
 }
 
 .profile {
@@ -109,7 +109,7 @@ header nav ul {
 /*--work--*/
 
 .work {
-  background-image: url("../images/hoops.JPG");
+  background-image: url("../images/DSC00614.JPG");
   background-size: cover;
   display: flex;
   justify-content: space-around;
@@ -127,7 +127,7 @@ header nav ul {
   font-weight: bolder;
   text-decoration: underline;
   padding: 0 0 10px 0;
-  background-color: rgb(126, 134, 116, 0.5);
+  background-color: rgb(163, 164, 199, 0.5);
 }
 
 .run-buddy {
@@ -148,7 +148,7 @@ header nav ul {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  background-color: rgb(126, 134, 116, 0.5);
+  background-color: rgb(163, 164, 199, 0.5);
   flex-grow: 2;
 }
 
@@ -168,7 +168,7 @@ header nav ul {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  background-color: rgb(126, 134, 116, 0.5);
+  background-color: rgb(163, 164, 199, 0.5);
 }
 
 .project3 {
@@ -188,7 +188,7 @@ header nav ul {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  background-color: rgb(126, 134, 116, 0.5);
+  background-color: rgb(163, 164, 199, 0.5);
 }
 
 .project4 {
@@ -208,7 +208,7 @@ header nav ul {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  background-color: rgb(126, 134, 116, 0.5);
+  background-color: rgb(163, 164, 199, 0.5);
 }
 
 .project5 {
@@ -228,7 +228,7 @@ header nav ul {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  background-color: rgb(126, 134, 116, 0.5);
+  background-color: rgb(163, 164, 199, 0.5);
 }
 
 /*--work end--*/
@@ -236,7 +236,7 @@ header nav ul {
 /*--personal info--*/
 
 .contact {
-  background-image: url("../images/hoops.JPG");
+  background-image: url("../images/DSC00614.JPG");
   background-size: cover;
   display: flex;
   justify-content: left;
@@ -258,11 +258,11 @@ address {
   font-weight: bold;
   text-decoration: underline;
   padding: 0 0 10px 0;
-  background-color: rgb(126, 134, 116, 0.5);
+  background-color: rgb(163, 164, 199, 0.5);
 }
 
 .contact address {
-  background-color: rgb(126, 134, 116, 0.5);
+  background-color: rgb(163, 164, 199, 0.5);
 }
 
 
@@ -270,7 +270,7 @@ address {
 
 /*--footer--*/
 footer {
-  background-color: #25382A;
+  background-color: var(--quaternary-color);
   padding: 10px;
   text-shadow: 3px 3px var(--tertiary-color);
   font-size: 8px;

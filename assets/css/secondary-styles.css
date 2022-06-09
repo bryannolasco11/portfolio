@@ -1,5 +1,5 @@
 .resumetitle {
-    background-image: url("../images/hoops.JPG");
+    background-image: url("../images/DSC00614.JPG");
     background-size: cover;
     display: flex;
     justify-content: space-around;
@@ -10,8 +10,8 @@
     padding:20px 0 10px 0;
     border-bottom: 3px solid;
     border-color: var(--secondary-color);
-    color: var(--primary-color);
-    text-shadow: 1px 1px var(--secondary-color);
+    color: var(--secondary-color);
+    text-shadow: 1px 1px var(--primary-color);
 
 }
 

@@ -3,7 +3,7 @@
 ## Purpose
 A Website to demonstrate the talent and abilities of Bryan Nolasco
 
-![alt text](/assets/images/Screenshot3.png)
+![alt text](./assets/images/Screenshot4.png)
 
 
 ## Built With
