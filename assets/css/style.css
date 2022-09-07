@@ -160,16 +160,16 @@ header nav ul {
   flex-grow: 2;
 }
 
-.wisconsin-havoc {
+.sinato {
     width: 120px;
     margin: 10px;
     opacity: .5;
 }
 
-.wisconsin-havoc:hover {
+.sinato:hover {
   opacity: 1;
 }
-.wisconsin-havoc-title {
+.sinato-title {
   margin: 0;
   border: 10px;
   padding: 15px;
